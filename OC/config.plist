@@ -42,7 +42,7 @@
 				<key>Comment</key>
 				<string>disable dgpu</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-DDGPU.aml</string>
 			</dict>
@@ -141,6 +141,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-EC-USBX.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-dGPU-Off.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -645,21 +653,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
-			<dict>
-				<key>ec-device</key>
-				<string>generic</string>
-				<key>fan-count</key>
-				<integer>2</integer>
-				<key>fan0-addr</key>
-				<integer>100</integer>
-				<key>fan0-mul</key>
-				<integer>128</integer>
-				<key>fan1-addr</key>
-				<integer>108</integer>
-				<key>fan1-mul</key>
-				<integer>128</integer>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>alc-delay</key>
@@ -1427,7 +1420,7 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Modern</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
