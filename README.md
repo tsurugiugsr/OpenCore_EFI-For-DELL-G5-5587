@@ -23,7 +23,7 @@
 
 
 ## 说明
-#### EFI文件夹基于[[OC更新]机械革命8代9代标压OC 4.0.1稳定版更新](https://www.cmbs-soft.com/oc-8-9-th-4-0-0/comment-page-13/)，修改而成。核显驱动属实给我整不会了，Catalina时用过来的玩意儿现在不好使了（话说本来那个就不太完美），只能找一个CPU和核显一致的其他机型EFI试一下，可以完美驱动核显以及加速，感谢大佬！
+#### EFI文件夹基于[[OC更新]机械革命8代9代标压OC 4.0.1稳定版更新](https://www.cmbs-soft.com/oc-8-9-th-4-0-0/comment-page-13/)修改而成。核显驱动属实给我整不会了，Catalina时用过来的玩意儿现在不好使了（话说本来那个就不太完美），只能找一个CPU和核显一致的其他机型EFI试一下，可以完美驱动核显以及加速，感谢大佬！
 
 
 
@@ -36,7 +36,7 @@
    
 ### 无线网卡
 1. 博通依然是快乐的选择（功能更全），但是我的博通坏了，只能先换回Intel。这里没有放博通驱动，需要替换的可以参考[黑果小兵的教程](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html)
-2. 使用[AirportItlwm和IntelBluetoothFirmware](https://github.com/OpenIntelWireless)驱动，但由于9560支持不完全，仅能应对一般但Wi-Fi使用和蓝牙连接。可以开启aptX，AirDrop可以检测到设备但不能传输文件。随航需要接线。接力正常。需要完整功能仍然建议博通方案，若不愿意整驱动可以考虑换成其他[支持较好的Intel无线网卡](https://openintelwireless.github.io/itlwm/Compat.html)
+2. 使用[AirportItlwm和IntelBluetoothFirmware](https://github.com/OpenIntelWireless)驱动，但由于9560支持不完全，仅能应对一般Wi-Fi使用和蓝牙连接。可以开启aptX，AirDrop可以检测到设备但不能传输文件。随航需要接线。接力正常。需要完整功能仍然建议博通方案，若不愿意整驱动可以考虑换成其他[支持较好的Intel无线网卡](https://openintelwireless.github.io/itlwm/Compat.html)
 
 
 
