@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## 2021.8.28更新
 1. 更新键盘驱动以解决睡眠唤醒后失灵的问题
 2. 添加有线网卡驱动但是没有启用，有需要可在OpenCore配置文件中自行启用
@@ -6,8 +5,6 @@
 
 ### 重要说明：这里的EFI文件夹配置文件中均没有完整的三码信息，使用时请务必自行摇号并完整注入。正常注入以后可以开启iCloud、iMessage等服务。
 =======
-## 2021.7.13更新
->>>>>>> 25894618bb3236d24958c165e4bd06aff79b07ce
 
 # OpenCore_EFI-For-DELL-G5-5587-适用于戴尔G5 5587的Hackintosh EFI
 ### 这里是专为Big Sur修改的EFI，Catalina没有用这个测试过，建议移步[Clover](https://github.com/Sosueyakiko/Clover_EFI-For-DELL-G5-5587)
