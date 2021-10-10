@@ -1,3 +1,7 @@
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
+
+
 ## 2021.8.28更新
 1. 更新键盘驱动以解决睡眠唤醒后失灵的问题
 2. 添加有线网卡驱动但是没有启用，有需要可在OpenCore配置文件中自行启用
