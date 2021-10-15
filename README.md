@@ -1,5 +1,7 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
+## 2021.10.15更新
+1. 如果在更新Monterey BETA 7及以上遇到诸如提示“固件错误”、反复重启但实际上更新没有完成之类的问题，请尝试使用这个https://github.com/acidanthera/RestrictEvents/releases/tag/1.0.5 ，同时保证OC设置中SecureBoot为disabled
 
 
 ## 2021.8.28更新
